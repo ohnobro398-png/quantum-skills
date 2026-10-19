@@ -1,0 +1,73 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quantum Skills — 9 agent skills">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="0.55" stop-color="#0c1428"/>
+      <stop offset="1" stop-color="#070b14"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00d9ff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#00d9ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#1f6feb" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d9ff"/>
+      <stop offset="0.5" stop-color="#4cc9f0"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00d9ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00d9ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#00d9ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+
+  <circle cx="230" cy="120" r="300" fill="url(#glowCyan)">
+    <animate attributeName="cx" values="230;300;230" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1050" cy="310" r="300" fill="url(#glowViolet)">
+    <animate attributeName="cx" values="1050;980;1050" dur="11s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="0" y="0" width="1280" height="90" fill="url(#scanGrad)" opacity="0.35">
+    <animate attributeName="y" values="-90;420" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g fill="#00d9ff" opacity="0.7">
+    <circle cx="120" cy="300" r="3"><animate attributeName="cy" values="300;260;300" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0.2;0.7" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="1160" cy="110" r="2.5"><animate attributeName="cy" values="110;150;110" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0.15;0.6" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="80" r="2"><animate attributeName="cy" values="80;120;80" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.1;0.5" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="340" r="2"><animate attributeName="cy" values="340;300;340" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.1;0.5" dur="6.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g stroke="#00d9ff" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M 30 70 L 30 30 L 70 30"/>
+    <path d="M 1210 30 L 1250 30 L 1250 70"/>
+    <path d="M 30 350 L 30 390 L 70 390"/>
+    <path d="M 1210 390 L 1250 390 L 1250 350"/>
+  </g>
+
+  <text x="70" y="80" font-family="monospace" font-size="20" fill="#3b82f6" opacity="0.9">$ ls skills/ | wc -l</text>
+  <text x="70" y="360" font-family="monospace" font-size="20" fill="#3b82f6" opacity="0.9">$ agent --skill quantum-coder "ship it"</text>
+
+  <text x="640" y="190" text-anchor="middle" font-family="monospace" font-size="88" font-weight="bold" letter-spacing="6" fill="url(#titleGrad)">QUANTUM SKILLS</text>
+
+  <line x1="380" y1="215" x2="900" y2="215" stroke="#00d9ff" stroke-width="2" stroke-dasharray="14 10" opacity="0.9">
+    <animate attributeName="stroke-dashoffset" values="0;48" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+
+  <text x="640" y="262" text-anchor="middle" font-family="monospace" font-size="30" letter-spacing="6" fill="#8b9bb4">9 AGENT SKILLS &#183; PRODUCTION READY</text>
+
+  <text x="640" y="312" text-anchor="middle" font-family="monospace" font-size="19" fill="#5b6b85">code &#183; design &#183; security &#183; video &#183; marketing &#183; sales</text>
+
+  <rect x="8" y="8" width="1264" height="404" fill="none" stroke="#1f6feb" stroke-opacity="0.35" stroke-width="2"/>
+</svg>
