@@ -1,7 +1,7 @@
-<img src="assets/banner.svg" alt="Quantum Skills — 9 production-ready agent skills" width="100%"/>
+<img src="assets/banner.svg" alt="Quantum Skills — 25 production-ready agent skills" width="100%"/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/25_skills-production_ready-00D9FF?style=for-the-badge" alt="9 skills"/>
+  <img src="https://img.shields.io/badge/25_skills-production_ready-00D9FF?style=for-the-badge" alt="25 skills"/>
   <img src="https://img.shields.io/badge/format-SKILL.md-7C3AED?style=for-the-badge" alt="SKILL.md format"/>
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="MIT license"/>
   <a href="https://github.com/ohnobro398-png/quantum-skills/stargazers"><img src="https://img.shields.io/github/stars/ohnobro398-png/quantum-skills?style=for-the-badge&color=FFD700&label=stars" alt="GitHub stars"/></a>
@@ -17,7 +17,7 @@ A skill is a `SKILL.md` file your coding agent loads to gain a capability: inste
 
 > 🔎 Looking for **Claude AI skills**, **Claude Code skills**, or **LLM agent skills**? You're in the right place — search-friendly, copy-paste ready, and free forever.
 
-## 📦 The 9 Skills
+## 📦 The 25 skills
 
 | # | Skill | What it does |
 |---|-------|--------------|
