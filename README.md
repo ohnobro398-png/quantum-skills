@@ -1,7 +1,7 @@
 <img src="assets/banner.svg" alt="Quantum Skills — 9 production-ready agent skills" width="100%"/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/9_skills-production_ready-00D9FF?style=for-the-badge" alt="9 skills"/>
+  <img src="https://img.shields.io/badge/25_skills-production_ready-00D9FF?style=for-the-badge" alt="9 skills"/>
   <img src="https://img.shields.io/badge/format-SKILL.md-7C3AED?style=for-the-badge" alt="SKILL.md format"/>
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="MIT license"/>
   <a href="https://github.com/ohnobro398-png/quantum-skills/stargazers"><img src="https://img.shields.io/github/stars/ohnobro398-png/quantum-skills?style=for-the-badge&color=FFD700&label=stars" alt="GitHub stars"/></a>
@@ -9,7 +9,7 @@
 
 # ⚛️ Quantum Skills
 
-**9 production-ready agent skills** for AI coding assistants — each one a complete playbook forged from real shipped work: client-side web tools, promo videos, f-commerce growth, and defensive security. Drop one into your agent and it works with opinions, checklists, and taste built in.
+**25 production-ready agent skills** for AI coding assistants — each one a complete playbook forged from real shipped work: client-side web tools, promo videos, f-commerce growth, and defensive security. Drop one into your agent and it works with opinions, checklists, and taste built in.
 
 ## What is an agent skill?
 
