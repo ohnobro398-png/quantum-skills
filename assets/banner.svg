@@ -1,4 +1,4 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quantum Skills — 9 agent skills">
+<svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quantum Skills — 25 agent skills">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070b14"/>
@@ -65,7 +65,7 @@
     <animate attributeName="stroke-dashoffset" values="0;48" dur="1.2s" repeatCount="indefinite"/>
   </line>
 
-  <text x="640" y="262" text-anchor="middle" font-family="monospace" font-size="30" letter-spacing="6" fill="#8b9bb4">9 AGENT SKILLS &#183; PRODUCTION READY</text>
+  <text x="640" y="262" text-anchor="middle" font-family="monospace" font-size="30" letter-spacing="6" fill="#8b9bb4">25 AGENT SKILLS &#183; PRODUCTION READY</text>
 
   <text x="640" y="312" text-anchor="middle" font-family="monospace" font-size="19" fill="#5b6b85">code &#183; design &#183; security &#183; video &#183; marketing &#183; sales</text>
 
